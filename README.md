@@ -3,9 +3,10 @@ I have installed multiple frameworks and libraries to implement the web push not
 These are express.js which is a framework for node.js. <br>
 Web push library is used to implement web push notifications from server to devices. <br>
 Body parser is used to accept all the request body and convert them to json for better handling. <br>
+install nodemon to automatically restart server whenever there is a change. <br>
 cors allows us to send requests to our server from our development server. <br>
-use command: npm install web-push cors express body-parser . <br>
-server is running on port 3001. <br>
+use command: npm install web-push cors express body-parser nodemon. <br>
+server is running on port 3001. Run the server using : nodemon server.js<br>
 we are using vapid keys mechanism here. <br>
 public key verifies the origin of web request. <br>
 private keys sign the authentication header for the notification. <br>
