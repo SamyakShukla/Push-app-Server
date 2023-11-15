@@ -1,3 +1,4 @@
+It makes use of Node.js instead of PHP. <br>
 In the Push-app file inside the server folder include all these files of this repo. <br>
 I have installed multiple frameworks and libraries to implement the web push notifications. <br>
 These are express.js which is a framework for node.js. <br>
